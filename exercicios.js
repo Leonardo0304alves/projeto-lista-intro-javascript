@@ -37,7 +37,7 @@ function imprimeIdade() {
 }
 
 // EXERCÍCIO 03
-function calculaIMC(peso ,altura) {
+function calculaIMC( peso, altura) {
   // implemente sua lógica aqui
   let peso = Number (prompt ('Qual seu peso?' ))
   let altura = Number (prompt ('Qual sua altura' ))
@@ -73,6 +73,8 @@ function imprimeTresCoresFavoritas() {
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
+  string = Olaaa
+  let retornaStringEmMaiuscula = string.toUpperCase()
 
 }
 
