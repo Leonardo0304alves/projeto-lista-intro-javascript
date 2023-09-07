@@ -41,9 +41,8 @@ function calculaIMC( peso, altura) {
   // implemente sua lógica aqui
   let peso = Number (prompt ('Qual seu peso?' ))
   let altura = Number (prompt ('Qual sua altura' ))
-  calculaIMC = peso / (altura * altura)
-  console.log (calculaIMC)
-
+  return = peso / (altura * altura)
+  
 }
 
 // EXERCÍCIO 04
@@ -73,13 +72,19 @@ function imprimeTresCoresFavoritas() {
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
-  string = Olaaa
-  let retornaStringEmMaiuscula = string.toUpperCase()
+  let letraNormal = "BoM DiiIa!"
+  let letraMaiuscula = letraNormal.toUpperCase
+  return letraMaiuscula
+ 
 
 }
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
+  const custo = 300
+  const valorIngresso = 30
+  const calculaIngressosEspetaculo = custo * valorIngresso 
+  console.log (calculaIngressosEspetaculo)
   // implemente sua lógica aqui
 
 }
