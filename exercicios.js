@@ -37,8 +37,12 @@ function imprimeIdade() {
 }
 
 // EXERCÍCIO 03
-function calculaIMC(peso, altura) {
+function calculaIMC(peso ,altura) {
   // implemente sua lógica aqui
+  let peso = Number (prompt ('Qual seu peso?' ))
+  let altura = Number (prompt ('Qual sua altura' ))
+  calculaIMC = peso / (altura * altura)
+  console.log (calculaIMC)
 
 }
 
@@ -46,12 +50,23 @@ function calculaIMC(peso, altura) {
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
-
+  let nome = (prompt ('Qual seu nome?' ))
+  let idade = Number (prompt ('Qual sua idade?' ))
+  let email = (prompt ('Qual seu email?' ))
+  console.log (`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
+  console.log (imprimeInformacoesUsuario)
+  
 }
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
+  let cor1 = (prompt ())
+  let cor2 = (prompt ())
+  let cor3 = (prompt ())
+  let imprimeTresCoresFavoritas = ["cor1" , "cor2" , "cor3" ]
+  console.log (imprimeTresCoresFavoritas)
+
 
 }
 
