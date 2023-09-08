@@ -22,7 +22,7 @@ function calculaAreaRetangulo() {
 let altura = Number (prompt ( ))
 let largura =  Number (prompt())
 let calculaAreaRetangulo = (altura * largura)
-console.log(calculaAreaRetangulo)
+console.log(calculaAreaRetangulo) 
 
 }
 
@@ -39,41 +39,41 @@ function imprimeIdade() {
 // EXERCÍCIO 03
 function calculaIMC( peso, altura) {
   // implemente sua lógica aqui
-  let peso = Number (prompt ('Qual seu peso?' ))
-  let altura = Number (prompt ('Qual sua altura' ))
-  return = peso / (altura * altura)
-  
+   const Imc = peso / (altura ** 2)     
+  return Imc
 }
+  
 
 // EXERCÍCIO 04
 function imprimeInformacoesUsuario() {
   // implemente sua lógica aqui
   // "Meu nome é NOME, tenho IDADE anos, e o meu email é EMAIL."
-  let nome = (prompt ('Qual seu nome?' ))
-  let idade = Number (prompt ('Qual sua idade?' ))
+   nome = (prompt ('Qual seu nome?' ))
+  idade = Number (prompt ('Qual sua idade?' ))
   let email = (prompt ('Qual seu email?' ))
   console.log (`Meu nome é ${nome}, tenho ${idade} anos, e o meu email é ${email}.`)
-  console.log (imprimeInformacoesUsuario)
-  
+    
 }
+
 
 // EXERCÍCIO 05
 function imprimeTresCoresFavoritas() {
   // implemente sua lógica aqui
-  let cor1 = (prompt ())
-  let cor2 = (prompt ())
-  let cor3 = (prompt ())
-  let imprimeTresCoresFavoritas = ["cor1" , "cor2" , "cor3" ]
+  let cor1 = (prompt ('Qual sua cor favorita?'))
+  let cor2 = (prompt ('Qual sua cor favorita?'))
+  let cor3 = (prompt ('Qual sua cor favorita?'))
+  let imprimeTresCoresFavoritas = [cor1 , cor2 , cor3 ]
   console.log (imprimeTresCoresFavoritas)
 
 
 }
 
+
 // EXERCÍCIO 06
 function retornaStringEmMaiuscula(string) {
   // implemente sua lógica aqui
-  let letraNormal = "BoM DiiIa!"
-  let letraMaiuscula = letraNormal.toUpperCase
+  
+  const letraMaiuscula = string.toUpperCase()
   return letraMaiuscula
  
 
@@ -81,10 +81,8 @@ function retornaStringEmMaiuscula(string) {
 
 // EXERCÍCIO 07
 function calculaIngressosEspetaculo(custo, valorIngresso) {
-  const custo = 300
-  const valorIngresso = 30
-  const calculaIngressosEspetaculo = custo * valorIngresso 
-  console.log (calculaIngressosEspetaculo)
+      calculaIngressosEspetaculo = custo / valorIngresso 
+  return calculaIngressosEspetaculo
   // implemente sua lógica aqui
 
 }
@@ -92,12 +90,15 @@ function calculaIngressosEspetaculo(custo, valorIngresso) {
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
+   
+    return string1.length === string2.length 
 
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
   // implemente sua lógica aqui
+  
 
 }
 
