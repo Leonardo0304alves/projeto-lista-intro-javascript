@@ -90,21 +90,21 @@ function calculaIngressosEspetaculo(custo, valorIngresso) {
 // EXERCÍCIO 08
 function checaStringsMesmoTamanho(string1, string2) {
   // implemente sua lógica aqui
-   
-    return string1.length === string2.length 
+  return string1.length === string2.length
 
 }
 
 // EXERCÍCIO 09
 function retornaPrimeiroElemento(array) {
-  // implemente sua lógica aqui
-  
+  // implemente sua lógica aqui 
+  return array[0]
 
 }
 
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
+
 
 }
 
@@ -117,7 +117,10 @@ function trocaPrimeiroEUltimo(array) {
 // EXERCÍCIO 12
 function checaIgualdadeDesconsiderandoCase(string1, string2) {
   // implemente sua lógica aqui
-
+  const lowercaseString1 = string1.toLowercase
+  const lowercaseString2 = string2.toLowercase
+   
+  return lowercaseString1 === lowercaseString2
 }
 
 // EXERCÍCIO 13
@@ -135,5 +138,6 @@ function checaAnoBissexto(ano) {
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
+
 
 }
