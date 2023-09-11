@@ -104,6 +104,7 @@ function retornaPrimeiroElemento(array) {
 // EXERCÍCIO 10
 function retornaUltimoElemento(array) {
   // implemente sua lógica aqui
+  return array [array.length -1]
 
 
 }
@@ -111,7 +112,8 @@ function retornaUltimoElemento(array) {
 // EXERCÍCIO 11
 function trocaPrimeiroEUltimo(array) {
   // implemente sua lógica aqui
-
+  return array.splice (1,1,1)
+  
 }
 
 // EXERCÍCIO 12
@@ -138,6 +140,8 @@ function checaAnoBissexto(ano) {
 // EXERCÍCIO 15
 function checaValidadeInscricaoLabenu() {
   // implemente sua lógica aqui
-
+  let idade = prompt('Digite sua idade')
+  let ensinoMedioCompleto = prompt('POssui ensino medio completo?')
+  let horario = prompt('tem disponibilidade de horario  ')
 
 }
